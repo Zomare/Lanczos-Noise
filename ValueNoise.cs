@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Noise
 {
+    //A version of value-noise using Lanczos-Resampling. Also has classic billiniar-noise
+    //Made by Zomare
+    
     class ValueNoise
     {
         //Hash-Function for rng, outputs in range [-1, 1]
